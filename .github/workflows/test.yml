@@ -47,9 +47,9 @@ jobs:
         with:
           ak: ${{ secrets.ACCESSKEY }}
           sk: ${{ secrets.SECRETACCESSKEY }}
-          region: "af-south-1"
-          project_id: "eecc7ec81ad346adbcde0a07fa343cb0"   # replace your project_id
-          cluster_id: "8817579e-f98a-11ee-990c-0255ac1000eb"    # replace your cluster_id
+          region: "tr-west-1"
+          project_id: "integrasiber-master-huawe"   # replace your project_id
+          cluster_id: "c3e004ed-6612-11ef-a1ea-0255ac100046"    # replace your cluster_id
       - run: |
           kubectl version --client
           kubectl config view
